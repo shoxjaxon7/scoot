@@ -1,0 +1,31 @@
+.header {
+    padding: 34px 169px;
+    &__container {
+        display: flex;
+        text-align: center;
+    }
+    &__logo {
+        flex-shrink: 0;
+        text-align: center;
+        margin-right: 59px;
+    }
+    &__nav {
+        vertical-align: middle;
+    }
+    &__list {
+        display: flex;
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+    }
+    .header__item {
+        margin-right: 40px;
+    }
+    &__link {
+        font-family: Space;
+        color: #939CAA;
+    }
+    .header__button {
+        margin-left: auto;
+    }
+}
