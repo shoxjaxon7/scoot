@@ -560,6 +560,7 @@ img {
 
 .rounds .rounds-right {
   width: 445px;
+  margin-left: 90px;
 }
 
 .rounds .rounds__head {
@@ -571,8 +572,77 @@ img {
   color: #495567;
 }
 
-.footer {
-  width: 140px;
-  min-height: 396px;
+.footer .footer__download {
+  width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #495567;
+  padding: 102px;
+}
+
+.footer .footer__download--head {
+  width: 415px;
+  min-height: 96px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: #FFFFFF;
+  margin-right: auto;
+}
+
+.footer .footer__button {
+  width: 159px;
+  height: 56px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px;
+  margin-left: 30px;
+  padding: 0px;
+  text-align: center;
+}
+
+.footer .footer__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__button--desc {
+  margin: 0px;
+}
+
+.footer .footer-bottom {
+  width: 1440px;
+  background-color: #333A44;
+  padding: 35px 168px;
+}
+
+.footer .footer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__link {
+  margin-right: 32px;
+  font-family: Space Mono;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 25px;
+  color: #939CAA;
+}
+
+.icon {
+  margin-right: 15px;
+}
+
+.svg {
+  margin-left: auto;
 }
 /*# sourceMappingURL=main.css.map */
