@@ -2,7 +2,8 @@
     display: flex;
     justify-content: center;
     .footer__download {
-        width: 1440px;
+        width: 100%;
+        max-width: 1440px;
         display: flex;
         background-color: $rarely;
         padding: 102px;
@@ -31,11 +32,19 @@
     .footer__container {
         display: flex;
     }
+    .footer__logo {
+        flex-shrink: 0;
+    }
     .footer__button--desc {
         margin: 0px;
     }
+    .footer__dubble {
+        display: flex;
+        margin-top: 40px;
+    }
     .footer-bottom {
-        width: 1440px;
+        width: 100%;
+        max-width: 1440px;
         background-color: $footer;
         padding: 35px 168px;
     }
@@ -59,4 +68,22 @@
 
 .svg {
     margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        .footer__download {
+            flex-direction: column;
+        }
+        .footer__download--head {
+            width: 100%;
+            max-width: 457px;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+        }
+        .footer-bottom {
+            padding: 36px 40px;
+        }
+    }
 }

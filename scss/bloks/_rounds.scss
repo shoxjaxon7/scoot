@@ -37,7 +37,12 @@
         .rounds__container {
             flex-direction: column-reverse;
         }
+        .rounds__container:nth-child(even) {
+            flex-direction: column-reverse;
+        }
         .rounds__head {
+            width: 100%;
+            max-width: 457px;
             margin: 0px auto;
             font-size: 48px;
             line-height: 48px;
@@ -53,6 +58,7 @@
         .rounds__button {
             width: 100%;
             max-width: 190px;
+            margin-left: 100px;
         }
     }
 }
