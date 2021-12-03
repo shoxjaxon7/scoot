@@ -22,4 +22,37 @@
         line-height: 48px;
         color: #495567;
     }
+    .rounds_desc {
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 25px;
+        color: #939CAA;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .rounds {
+        .rounds__container {
+            flex-direction: column-reverse;
+        }
+        .rounds__head {
+            margin: 0px auto;
+            font-size: 48px;
+            line-height: 48px;
+            text-align: center;
+            color: #495567;
+        }
+        .rounds__desc {
+            font-size: 15px;
+            line-height: 25px;
+            text-align: center;
+            color: #939CAA;
+        }
+        .rounds__button {
+            width: 100%;
+            max-width: 190px;
+        }
+    }
 }
