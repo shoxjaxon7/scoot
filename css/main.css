@@ -465,6 +465,7 @@ img {
   .header {
     width: 100%;
     padding: 34px 39px;
+    margin: 0px;
   }
   .header__logo {
     margin-right: 50px;
@@ -506,6 +507,7 @@ img {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
+  margin: 0px;
   padding: 153px 1px;
 }
 
@@ -546,11 +548,46 @@ img {
 }
 
 @media screen and (max-width: 768px) {
+  .main {
+    margin: 0px;
+  }
   .main__container {
     width: 100%;
+    max-width: 768px;
     margin: 0px;
     background-image: url("../../image/tablet-back.png");
     background-size: 768px 650px;
+    padding-right: 97px;
+  }
+  .main .main-content__head {
+    max-width: 573px;
+    text-align: center;
+    font-size: 56px;
+    line-height: 56px;
+  }
+  .main .main-content__desc {
+    max-width: 573px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .box {
+    background-image: none;
+    width: 100%;
+    max-width: 573px;
+  }
+}
+
+@media screen and (max-width: 573px) {
+  .main {
+    margin: 0px;
+  }
+  .main__container {
+    width: 100%;
+    max-width: 573px;
+    margin: 0px;
+    background-image: url("../../image//mobile.png");
+    background-size: 573px 650px;
     padding-right: 97px;
   }
   .main .main-content__head {
