@@ -1,0 +1,24 @@
+.rounds {
+    margin: 0px;
+    margin-top: 200px;
+    padding: 0px;
+    padding-left: 165px;
+    &__container {
+        display: flex;
+        margin-bottom: 165px;
+    }
+    .rounds__container:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    .rounds-right {
+        width: 445px;
+    }
+    .rounds__head {
+        width: 445px;
+        font-family: Space Mono;
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 48px;
+        color: #495567;
+    }
+}
